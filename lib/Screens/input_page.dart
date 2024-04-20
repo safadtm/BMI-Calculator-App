@@ -10,6 +10,8 @@ import 'package:bmi_calculator_app/Components/icon_content.dart';
 import 'package:bmi_calculator_app/Components/reusable_bg.dart';
 import 'package:bmi_calculator_app/constants.dart';
 
+import 'results_page.dart';
+
 class InputPage extends StatefulWidget {
   const InputPage({super.key});
 
