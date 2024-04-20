@@ -33,4 +33,14 @@ class Calculate {
       return _textColor;
     }
   }
+
+  String getText() {
+    if (_bmi >= 25) {
+      return 'OVERWEIGHT';
+    } else if (_bmi > 18.5) {
+      return 'NORMAL';
+    } else {
+      return 'UNDERWEIGHT';
+    }
+  }
 }
